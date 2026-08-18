@@ -2,7 +2,7 @@ CREATE DATABASE StudentDB;
 
 USE StudentDB;
 
-CREATE TABLE StudentDB
+CREATE TABLE Students
 (
     Roll_no INT,
     Name VARCHAR(50),
@@ -11,7 +11,7 @@ CREATE TABLE StudentDB
     Department VARCHAR(30)
 );
 
-INSERT INTO StudentDB(Roll_no,Name,Age,Marks,Department)
+INSERT INTO Students(Roll_no,Name,Age,Marks,Department)
 VALUES
 (1,'Sanika',20,90,'CSE'),
 (2,'Rahul',21,85,'IT'),
@@ -20,5 +20,5 @@ VALUES
 (5,'Neha',21,67,'CSE'),
 (6,'Riya',20,75,'CSE');
 
-SELECT *FROM StudentDB;
+SELECT *FROM Students;
 
